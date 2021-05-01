@@ -1,0 +1,13 @@
+[user]
+	email = nathan@agileanimal.com
+	name = Nathan Youngman
+	
+[credential]
+	helper = osxkeychain
+
+[push]
+	default = simple
+
+[core]
+	quotepath = false
+	excludesfile = /Users/nathany/.gitignore_global
