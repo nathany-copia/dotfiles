@@ -26,10 +26,10 @@ cask '1password'
 cask 'appcleaner'
 
 # Web browsers
-cask 'google-chrome'
-# cask 'google-chrome-canary'
 cask 'firefox-developer-edition'
 cask 'safari-technology-preview'
+cask 'microsoft-edge'
+# cask 'google-chrome'
 
 # Development
 mas 'Xcode', id: 497799835
