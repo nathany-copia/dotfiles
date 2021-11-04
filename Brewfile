@@ -17,23 +17,25 @@ mas 'Pages', id: 409201541
 
 # Communication
 mas 'Slack', id: 803453959
-cask 'microsoft-teams'
 cask 'zoom'
 # cask 'keybase'
 
+# Rosetta
+# cask 'microsoft-teams'
+
 # Utilities
 cask '1password'
-cask 'appcleaner'
 
 # Web browsers
-cask 'firefox-developer-edition'
-cask 'safari-technology-preview'
 cask 'microsoft-edge'
+# cask 'firefox-developer-edition'
+# cask 'safari-technology-preview'
 # cask 'google-chrome'
 
 # Development
 mas 'Xcode', id: 497799835
 mas 'Developer', id: 640199958
+# 'TestFlight'
 
 cask 'visual-studio-code'
 # cask 'dash'
@@ -51,7 +53,7 @@ brew 'node'
 cask 'postman'
 cask 'ngrok'
 
-cask 'postgres'
+cask 'postgres-unofficial'
 cask 'tableplus'
 
 cask 'imageoptim'
