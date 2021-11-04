@@ -5,3 +5,5 @@ export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin":$PATH
 
 # Elixir and Erlang via asdf
 # export PATH=$PATH:$HOME/.asdf/shims/
+
+export ERL_AFLAGS="-kernel shell_history enabled"
