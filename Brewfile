@@ -9,9 +9,7 @@ brew 'mas' # Mac App Store CLI
 
 # TODO: use whalebrew instead of installing deps directly
 
-brew 'docker'
-brew 'docker-compose'
-# cask 'docker'
+cask 'docker'
 
 # Communication
 mas 'Slack', id: 803453959
