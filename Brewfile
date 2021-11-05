@@ -8,20 +8,19 @@ brew 'rcm'
 brew 'mas' # Mac App Store CLI
 
 # TODO: use whalebrew instead of installing deps directly
-cask 'docker'
 
-# Productivity
-mas 'Keynote', id: 409183694
-mas 'Numbers', id: 409203825
-mas 'Pages', id: 409201541
+brew 'docker'
+brew 'docker-compose'
+# cask 'docker'
 
 # Communication
 mas 'Slack', id: 803453959
 cask 'zoom'
 # cask 'keybase'
 
-# Rosetta
-# cask 'microsoft-teams'
+# Rosetta 2 required
+# sudo softwareupdate --install-rosetta
+cask 'microsoft-teams'
 
 # Utilities
 cask '1password'
@@ -35,7 +34,7 @@ cask 'microsoft-edge'
 # Development
 mas 'Xcode', id: 497799835
 mas 'Developer', id: 640199958
-# 'TestFlight'
+mas 'TestFlight', id: 899247664
 
 cask 'visual-studio-code'
 # cask 'dash'
@@ -49,6 +48,8 @@ brew 'elixir'
 
 brew 'node'
 # brew 'yarn'
+
+brew 'imagemagick'
 
 cask 'postman'
 cask 'ngrok'
