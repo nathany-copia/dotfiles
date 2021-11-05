@@ -12,8 +12,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 * [Pure prompt](https://github.com/sindresorhus/pure) (included with oh-my-zsh)
-* [Tomorrow Night theme](https://github.com/chriskempson/tomorrow-theme)
-* [Go Mono](https://blog.golang.org/go-fonts) (was [Luxi Mono](http://en.wikipedia.org/wiki/Luxi_fonts))
+* [macos-terminal-themes](https://github.com/lysyi3m/macos-terminal-themes)
+* [Luxi Mono](http://en.wikipedia.org/wiki/Luxi_fonts)
 
 (Note: oh-my-zsh install overwrites .zshrc, so install it first)
 
