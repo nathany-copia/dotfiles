@@ -37,7 +37,7 @@ mas 'Developer', id: 640199958
 mas 'TestFlight', id: 899247664
 
 cask 'visual-studio-code'
-# cask 'dash'
+cask 'dash'
 
 brew 'git'
 # brew 'git-lfs'
