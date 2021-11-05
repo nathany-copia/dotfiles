@@ -1,6 +1,6 @@
 # anmlnath dotfiles
 
-My personal dotfiles managed with [rcm](https://github.com/thoughtbot/rcm).
+My work dotfiles managed with [rcm](https://github.com/thoughtbot/rcm).
 
 ## Installation
 
