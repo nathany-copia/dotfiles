@@ -56,3 +56,4 @@ cask 'postgres-unofficial'
 cask 'tableplus'
 
 cask 'imageoptim'
+cask 'prince'
