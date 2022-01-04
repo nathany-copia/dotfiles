@@ -47,6 +47,8 @@ brew 'elixir'
 brew 'node'
 # brew 'yarn'
 
+brew 'openjdk'
+
 brew 'imagemagick'
 
 cask 'postman'
