@@ -39,7 +39,7 @@ cask 'dash'
 
 brew 'git'
 # brew 'git-lfs'
-brew 'hub'
+brew 'gh'
 cask 'tower'
 
 brew 'elixir'
