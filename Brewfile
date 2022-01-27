@@ -2,6 +2,9 @@
 # brew bundle
 # tap 'homebrew/bundle'
 
+# for firefox-developer-edition, safari-technology-preview
+tap 'homebrew/cask-versions' 
+
 tap 'thoughtbot/formulae'
 brew 'rcm'
 
@@ -25,9 +28,9 @@ cask '1password'
 
 # Web browsers
 cask 'microsoft-edge'
-# cask 'firefox-developer-edition'
-# cask 'safari-technology-preview'
-# cask 'google-chrome'
+cask 'firefox-developer-edition'
+cask 'safari-technology-preview'
+cask 'google-chrome'
 
 # Development
 mas 'Xcode', id: 497799835
