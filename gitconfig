@@ -11,3 +11,5 @@
 [core]
 	quotepath = false
 	excludesfile = /Users/nathany/.gitignore_global
+[init]
+	defaultBranch = main
