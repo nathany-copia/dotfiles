@@ -32,7 +32,7 @@ brew bundle -v
 Dotfile management with [RCM](https://thoughtbot.github.io/rcm/)
 
 ```console
-rcup -v -d ~/work/src/github.com/anmlnath/dotfiles -x README.md -x LICENSE -x Brewfile
+rcup -v -d ~/work/src/github.com/nathany-copia/dotfiles -x README.md -x LICENSE -x Brewfile
 ```
 
 ### SSH Keys
