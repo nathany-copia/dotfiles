@@ -20,11 +20,16 @@ source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
 
 # RCM
-export DOTFILES_DIRS=$HOME/work/src/github.com/anmlnath/dotfiles
+export DOTFILES_DIRS=$HOME/work/src/github.com/nathany-copia/dotfiles
 
 export EDITOR="code -w"
 
 # cd..
 export CDPATH=.:$HOME/work/src/github.com/
-export CDPATH=$CDPATH:$HOME/work/src/github.com/RobotsAndPencils
-export CDPATH=$CDPATH:$HOME/work/src/gitlab.gov.ab.ca
+
+# Copia 
+export CDPATH=$CDPATH:$HOME/work/src/github.com/copia-wealth-studios
+export AWS_SQS_DISABLE=true
+
+# Docker
+source /Users/nathany/.docker/init-zsh.sh || true # Added by Docker Desktop
