@@ -20,4 +20,4 @@
 	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
 	allowedSignersFile = /Users/nathany/.config/git/allowed_signers
 [commit]
-	gpgsign = false
+	gpgsign = true
