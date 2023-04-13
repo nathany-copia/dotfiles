@@ -1,6 +1,7 @@
 [user]
 	email = nathan.youngman@copiawealthstudios.com
 	name = Nathan Youngman
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICfB5UiK0htsqBU4RVZb2H99fvW+TLbhzzecQTkw2hvU
 	
 [credential]
 	helper = osxkeychain
@@ -13,3 +14,10 @@
 	excludesfile = /Users/nathany/.gitignore_global
 [init]
 	defaultBranch = main
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+	allowedSignersFile = /Users/nathany/.config/git/allowed_signers
+[commit]
+	gpgsign = false

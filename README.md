@@ -37,7 +37,7 @@ rcup -v -d ~/work/src/github.com/nathany-copia/dotfiles -x README.md -x LICENSE 
 
 ### SSH Keys
 
-New SSH keys need to be created ([GitHub](https://help.github.com/articles/generating-ssh-keys/)).
+New SSH keys need to be created ([GitHub](https://help.github.com/articles/generating-ssh-keys/) with [1Password](https://www.git-tower.com/blog/1password-ssh-tower/).
 
 ```console
 cd ~/.ssh
