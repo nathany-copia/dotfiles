@@ -12,12 +12,16 @@
 [core]
 	quotepath = false
 	excludesfile = /Users/nathany/.gitignore_global
+
 [init]
 	defaultBranch = main
+
 [gpg]
 	format = ssh
+
 [gpg "ssh"]
 	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
 	allowedSignersFile = /Users/nathany/.config/git/allowed_signers
+
 [commit]
 	gpgsign = true
