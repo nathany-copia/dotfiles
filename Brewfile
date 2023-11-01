@@ -62,3 +62,17 @@ cask 'tableplus'
 
 cask 'imageoptim'
 cask 'prince'
+
+# for Developer Access script
+brew 'bash'
+brew 'jq'
+brew 'dialog'
+brew 'fop'
+brew 'coreutils'
+brew 'curl'
+brew 'git'
+brew 'aws-cli'
+brew 'aws-session-manager'
+
+
+
