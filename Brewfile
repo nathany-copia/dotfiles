@@ -71,8 +71,8 @@ brew 'fop'
 brew 'coreutils'
 brew 'curl'
 brew 'git'
-brew 'aws-cli'
-brew 'aws-session-manager'
+brew 'awscli'
+cask 'session-manager-plugin'
 
 
 
