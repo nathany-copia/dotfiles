@@ -21,7 +21,7 @@ cask 'zoom'
 
 # Rosetta 2 required
 # sudo softwareupdate --install-rosetta
-cask 'microsoft-teams'
+# cask 'microsoft-teams'
 
 # Utilities
 cask '1password'

@@ -33,3 +33,6 @@ export AWS_SQS_DISABLE=true
 
 # Docker
 source /Users/nathany/.docker/init-zsh.sh || true # Added by Docker Desktop
+
+export AWS_PROFILE=devops
+
