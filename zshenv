@@ -11,3 +11,6 @@ export ERL_AFLAGS="-kernel shell_history enabled"
 # Java
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
+
+# pipx installed things
+export PATH=$PATH:$HOME/.local/bin
